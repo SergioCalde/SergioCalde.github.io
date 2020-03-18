@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Nosotros
 permalink: /about/
 ---
 Empresa formada por dos ingenieros en sistemas, los cuales quieren brindar soluciones informáticas, que puedan ayudar a solventar problemas del día a día.
