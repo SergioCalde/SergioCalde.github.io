@@ -2,6 +2,7 @@
 # This file contains configuration flags to customize your site
 #
 
+
 # Name of your site (displayed in the header)
 name: Seda Projects
 
@@ -10,7 +11,7 @@ description: Nos encargamos de brindar soluciones informaticas, de la mejor mane
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/40676943?s=460&u=fe7afc7a125584f163f8d78272e3d28527a2267f&v=4
-image: ![Seda Logo]({{ site.baseurl }}/images/LogoSeda.png)
+
 #
 # Flags below are optional
 #
