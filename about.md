@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Empresa formada por dos ingenieros en sistemas, los cuales quieren brindar soluciones informáticas, que puedan ayudar a solventar problemas del día a día
+Empresa formada por dos ingenieros en sistemas, los cuales quieren brindar soluciones informáticas, que puedan ayudar a solventar problemas del día a día.
 
 ### Información sobre nosotros
 
