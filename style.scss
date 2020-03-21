@@ -201,6 +201,7 @@ nav {
   @include mobile {
     float: relative;
     margin-top: 50px;
+    height: 200px;
     display: block;
     font-size: 16px;
   }
