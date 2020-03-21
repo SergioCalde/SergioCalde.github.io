@@ -301,7 +301,7 @@ nav{
 footer {
   padding: 20px 0;
   text-align: center;
-  background-color: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0,1);
   color: white;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
