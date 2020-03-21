@@ -196,6 +196,8 @@ nav {
   font-size: 18px;
   height: 75px;
   background-color: transparent !important;
+  background: transparent;
+  
   @include mobile {
     float: relative;
     margin-top: 0px;
