@@ -180,6 +180,26 @@ img {
   }
 }
 
+#LogoNav {
+  float: left;
+  position: relative;
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  text-align: center;
+  margin-right: 30px;
+  display: block;
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  img {
+    border-radius: 5px;
+  }
+}
+
+
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
