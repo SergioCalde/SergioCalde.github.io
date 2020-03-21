@@ -163,8 +163,10 @@ img {
 
 #Logo {
   float: none;
+  position: relative;
   width: 150px;
   height: 150px;
+  margin: auto;
   //margin-right: 30px;
   display: block;
   @include mobile {
