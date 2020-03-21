@@ -211,12 +211,12 @@ img {
 
 nav {
   float: relative;
+  background: rgba(0, 0, 0, 0.5);
   margin-top: 0px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
   min-height: 30px;
   //height: 75px;
-  background: rgba(255, 255, 255, 0.3);
   @include mobile {
     float: relative;
     margin-top: 0px;
