@@ -194,14 +194,14 @@ nav {
   margin-top: 0px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
-  height: 75px;
+  //height: 75px;
   background-color: transparent !important;
   background: #1C2331!important;
 
   @include mobile {
     float: relative;
     margin-top: 50px;
-    height: 200px;
+    //height: 200px;
     display: block;
     font-size: 16px;
   }
