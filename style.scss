@@ -195,7 +195,7 @@ nav {
   font-family: $helveticaNeue;
   font-size: 18px;
   height: 75px;
-  background: transparent;
+  background-color: transparent !important;
   @include mobile {
     float: relative;
     margin-top: 0px;
