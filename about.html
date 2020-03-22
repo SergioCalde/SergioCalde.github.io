@@ -2,29 +2,34 @@
 layout: default
 ---
 
-<div class="card-group">
+<div class="accordion" id="accordionExample">
     <div class="card">
-      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            SEDA Projects
+          </button>
+        </h5>
+      </div>
+      SEDA es el resultado de mucho es esfuerzo, dedicación y aprendizaje continuo, en este bello mundo de la informática. Debido a que cada problema que se los pueda ir presentando a lo largo de nuestro día a día, puede tener una solución, confiable y eficaz para poder llevar a cabo dicho proceso. Por lo que eso es lo que queremos ofrecer, poder dar soluciones a los problemas que se puedan presentar, así como poder presentar ideas, capaces de aportar en el día a día. 
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          
+        </div>
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Información sobre nosotros
+          </button>
+        </h5>
       </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+            Empresa formada por dos ingenieros en sistemas, los cuales quieren brindar soluciones informáticas, que puedan solventar problemas del día a día, a travez del conocimiento adquirido, y poder brindar un servicio de calidad, en el cual se tenga la transparencia con el usuario final y así poder llevar de la mano cada uno de los proyectos.   
+        </div>
       </div>
     </div>
   </div>
